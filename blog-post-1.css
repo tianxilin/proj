@@ -1,0 +1,133 @@
+body {
+    max-width: 50rem; /* 50 * 16px = 800px*/
+    margin: auto;
+    color: #000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav li {
+    padding: 2rem 1.5rem;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section img {
+    width: 100%;
+}
+
+.blog-post-content {
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+    margin: -50px 40px 0;
+}
+
+.entry-meta {
+    color: #9e9e9e;
+    margin: 20px 0 30px;
+}
+
+.fa-clock-o:before {
+    content: "\f017";
+}
+
+.blog-post-content .divider {
+    color: #d3d3d3;
+    margin: 0 2px;
+    min-width: 5px;
+}
+
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.fa-user:before {
+    content: "\f007";
+}
+
+.fa-folder:before {
+    content: "\f07b";
+}
+
+p {
+    font-size: 15px;
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+blockquote {
+    margin: 30px 0;
+    border-left: 3px solid #2eca7f;
+    font-style: italic;
+    padding: 1rem 2rem;
+}
+
+.entry-meta.entry-tags-share .share-buttons {
+    display: inline-block;
+    margin-left: 350px;
+}
+
+.share-buttons a i {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-dribble:before {
+    content: "\f17d";
+}
+
+.entry-meta.entry-tags-share {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #fafafa;
+    padding: 5px 10px;
+    margin: 30px 0 0;
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tags li {
+    display: inline-block;
+    margin:2px 0;
+}
+
+.tags li a {
+    font-size: 13px;
+    color: #757575;
+    padding: 3px 8px;
+    background-color: #eee;
+    border-radius: 3px;
+}

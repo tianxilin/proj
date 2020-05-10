@@ -17,7 +17,7 @@ header nav {
 }
 
 nav li {
-    padding: 1rem;
+    padding: 2rem 1.5rem;
 }
 
 nav li a {
@@ -38,6 +38,8 @@ section.section--banner {
     background-color: #2eca7f;
     position: relative;
     min-height: 10rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 section.section--banner img {
